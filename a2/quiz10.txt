@@ -1,0 +1,8 @@
+10:
+For any language L which is recursively enumerable but not decidable, which statements below are true: There is a TM which for every w in L, halts in the accept state and for every w not in L does not halt in the accept state (False statements: 
+There is a non-deterministic TM which decides L but no deterministic TM, There is a TM which halts on every input and accepts every w in L and accepts no other strings.)
+
+If a language is decidable then there is a TM which halts on all input and accepts only inputs in the language: True
+If a language is decidable by a 3-tape TM it is decidable by a 1-tape TM: True
+If a language is decidable by a non-deterministic TM then it is decidable by a deterministic TM : True
+Shifting a string by one cell on a TM tape can be done in time linear in the length of the string: True
